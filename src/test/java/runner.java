@@ -5,5 +5,5 @@ import io.cucumber.testng.CucumberOptions;
     plugin = {"html:target/cucumber-report/cucumber-html-report.html"},
     features = "src/test/resources/features",
     glue = {"stepsDefs"},
-    tags = "@Test1")
+    tags = "@TestCase2")
 public class runner extends AbstractTestNGCucumberTests {}
