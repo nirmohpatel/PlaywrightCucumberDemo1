@@ -13,6 +13,7 @@ public class Hooks {
     @Before
     public void setup(){
         PlaywrightDriver.setupDriver();
+        PlaywrightDriver.openPage(PlaywrightDriver.config.getProperty("testsUrl"));
     }
 
     @After
